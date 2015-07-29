@@ -32,7 +32,8 @@ describe('pos', function() {
       hour = dateDigitToString(currentDate.getHours()),
       minute = dateDigitToString(currentDate.getMinutes()),
       second = dateDigitToString(currentDate.getSeconds()),
-      formattedDateString = year + '年' + month + '月' + date + '日 ' + hour + ':' + minute + ':' + second;
+      formattedDateString = year + '年' + month + '月' + date + '日 ' + hour +
+      ':' + minute + ':' + second;
 
     var expectText =
       '***<没钱赚商店>收据***\n' +
